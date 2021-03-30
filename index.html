@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blade-Works</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="PAGES/jQuery/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="flex">
+            <div class="header-menu flex">
+                <div class="center partition">
+                    <a href="PAGES/ABOUT/about.html" class="page-link">About</a>
+                </div>
+                <div class="center partition">
+                    <a href="PAGES/PRODUCT/product.html" class="page-link">Products</a>
+                </div>
+                <div class="center">
+                    <a href="PAGES/CONTACT/contact.html" class="page-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="images">
+        <h1 class="slogan">Making things with all your might</h1>
+    </div>
+    <script src="PAGES/jQuery/jquery.bgswitcher.js"></script>
+    <script>
+        jQuery(function ($) {
+            $('.images').bgSwitcher({
+                images: ['img/sifcb.jpg', 'img/rina.jpg', 'img/controller.jpg', 'img/ver2.jpg'],
+            });
+        });
+    </script>
+    <footer>
+        <div class="center">
+            <p>Blade-Works 2021</p>
+        </div>
+    </footer>
+</body>
+
+</html>
